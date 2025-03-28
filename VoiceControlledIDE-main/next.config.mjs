@@ -4,7 +4,9 @@ const nextConfig = {
   basePath: '/VoiceControlledIDE',
   images: {
     unoptimized: true
-  }
+  },
+  trailingSlash: true,
+  assetPrefix: '/VoiceControlledIDE'
 };
 
 export default nextConfig;
